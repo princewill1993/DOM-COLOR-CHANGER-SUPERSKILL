@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+#color-box {
+  width: 45rem;
+  height: 45rem;
+  background-color: aqua;
+  margin-bottom: 3rem;
+  border-radius: 3rem;
+}
+
+#change-color-btn {
+  background-color: black;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
